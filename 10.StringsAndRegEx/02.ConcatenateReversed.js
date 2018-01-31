@@ -1,5 +1,5 @@
 function concReversed(arr) {
-    let array = arr.reverse();
+    arr.reverse();
     let tempArray = [];
     for (let i = 0; i < arr.length; i++) {
         tempArray.push(arr[i].split('').reverse().join(''))
