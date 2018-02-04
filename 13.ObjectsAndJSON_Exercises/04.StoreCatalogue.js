@@ -4,7 +4,6 @@ function storeCatalogue(arr) {
         let name = arr[i].split(' : ')[0].trim(' ');
         let value = arr[i].split(' : ')[1];
         catalogue.set(name, Number(value));
-
     }
     let letter = '';
     for (item of [...catalogue].sort()) {
@@ -14,9 +13,7 @@ function storeCatalogue(arr) {
         }
         console.log('  ' + item[0] + ': ' + catalogue.get(item[0]));
     }
-
 }
-
 storeCatalogue([
     'Appricot : 20.4',
     'Fridge : 1500',
