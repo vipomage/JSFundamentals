@@ -11,6 +11,14 @@
 .sort()
 
 
+------Order by number ascending then by alphabetical
+
+if(a !== b) {
+            return(a - b); // length or number
+        } else {
+            return a.localeCompare(b); //string
+        }
+
 
 first criteria goes last ...
  */
