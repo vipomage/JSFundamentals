@@ -7,8 +7,10 @@
 
 --- Lexicographically/Alphabetically A - > B
 
+.sort((a,b)=> a > b)
+.sort()
 
-.sort((a,b)=> a.localeCompare(b))
 
 
+first criteria goes last ...
  */

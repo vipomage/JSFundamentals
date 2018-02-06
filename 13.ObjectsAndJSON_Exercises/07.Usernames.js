@@ -1,0 +1,5 @@
+function userNames(strArr) {
+
+}
+
+userNames([]);
